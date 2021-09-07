@@ -1,5 +1,5 @@
 {
-  "name": "knowpoints",
+  "name": "vue-app",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -9,6 +9,7 @@
     "build-dev": "vue-cli-service build --mode dev",
     "build-prod": "vue-cli-service build --mode prod",
     "build-test": "vue-cli-service build --mode test",
+    "polp:build": "polp pages `call name generator pages`",
     "a-test": "browser-sync start --server --files dist/index.html",
     "lint": "vue-cli-service lint"
   },
@@ -19,7 +20,11 @@
     "image-webpack-loader": "^6.0.0",
     "jquery": "^3.5.1",
     "markdown-it": "^11.0.0",
+    "plop": "^2.7.4",
+    "postcss-import": "^14.0.2",
     "prerender-spa-plugin": "^3.4.0",
+    "sass": "^1.39.0",
+    "sass-loader": "^12.1.0",
     "style-resources-loader": "^1.3.3",
     "uglifyjs-webpack-plugin": "^2.2.0",
     "vue": "^2.6.11",
