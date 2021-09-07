@@ -1,0 +1,100 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li, textarea,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    font-family: "Microsoft YaHei","微软雅黑";
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    min-width: 1300px;
+    line-height: 1;
+    overflow: hidden;
+}
+@media screen and (max-width: 1300px) {
+  body {
+    overflow-x: scroll
+  }
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+::-webkit-scrollbar {
+    width: 0;
+    height: 0px;
+    background-color: #ecf0f3;
+}
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+    border-radius: 0px;
+    background: rgba(0,0,0,.2);
+}
+::-webkit-scrollbar-track {
+    background: rgba(0,0,0,.1);
+}
+ul,li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+a {
+    color: #0070d2;
+    text-decoration: none;
+    transition: all 0.1s;
+}
+body::-webkit-scrollbar,
+.el-table__body::-webkit-scrollbar,
+.el-table__body-wrapper::-webkit-scrollbar {
+    width: 10px !important;
+    height: 10px !important;
+    background-color:  #eee !important
+  }
+body::-webkit-scrollbar-thumb ,
+.el-table__body::-webkit-scrollbar-thumb,
+.el-table__body-wrapper::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 5px !important;
+    -moz-border-radius: 5px !important;
+    -ms-border-radius: 5px !important;
+    -o-border-radius: 5px !important;
+    border-radius: 5px !important;
+    background: #c9c5c5 !important
+  }
+body::-webkit-scrollbar-track,
+.el-table__body::-webkit-scrollbar-track,
+.el-table__body-wrapper::-webkit-scrollbar-track {
+    background: #eee !important
+  }
+  
