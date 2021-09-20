@@ -1,3 +1,1 @@
-# vue-app 脚手架
-
-更新中...
+# vue-typescript-app 脚手架
