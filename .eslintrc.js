@@ -16,8 +16,9 @@ module.exports = {
   rules: {
     "no-console": process.env.NODE_ENV === "production" ? "warn" : "off",
     "no-debugger": process.env.NODE_ENV === "production" ? "warn" : "off",
+    "@typescript-eslint/no-inferrable-types": "off",
     // 禁止出现未使用的变量
-    "no-unused-vars": 'off',
+    "no-unused-vars": "off",
     "no-undef": "off"
   }
 }
